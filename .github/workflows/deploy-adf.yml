@@ -13,12 +13,12 @@ jobs:
         uses: actions/checkout@v3
 
       - name: Login to Azure
-        uses: azure/login@v2.2.0
+        uses: azure/login@4
         with:
           creds: ${{ secrets.AZURE_CREDENTIALS }}
 
       - name: Deploy ADF changes
-        uses: Azure/data-factory-deploy-action@v1.2.5
+        uses: Azure/data-factory-deploy-action@v4
         with:
           resourceGroupName: azure-project-naman
           dataFactoryName: df-azure-project-naman
