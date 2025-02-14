@@ -18,7 +18,7 @@ jobs:
           creds: ${{ secrets.AZURE_CREDENTIALS }}
 
       - name: Deploy ADF changes
-        uses: Azure/data-factory-deploy-action@v2.2.0
+        uses: Azure/data-factory-deploy-action@v1.2.5
         with:
           resourceGroupName: azure-project-naman
           dataFactoryName: df-azure-project-naman
