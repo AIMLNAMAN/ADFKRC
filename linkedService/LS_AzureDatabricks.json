@@ -1,0 +1,18 @@
+{
+	"name": "LS_AzureDatabricks",
+	"type": "Microsoft.DataFactory/factories/linkedservices",
+	"properties": {
+		"annotations": [],
+		"type": "AzureDatabricks",
+		"typeProperties": {
+			"domain": "https://adb-2954215624301296.16.azuredatabricks.net",
+			"authentication": "MSI",
+			"workspaceResourceId": "/subscriptions/6026ca2b-cc95-461e-939d-61890a6442c5/resourceGroups/azure-project-naman/providers/Microsoft.Databricks/workspaces/krcdatabricks",
+			"newClusterNodeType": "Standard_D4a_v4",
+			"newClusterNumOfWorker": "1",
+			"newClusterVersion": "14.3.x-photon-scala2.12",
+			"clusterOption": "Fixed",
+			"newClusterInitScripts": []
+		}
+	}
+}
