@@ -1,0 +1,9 @@
+{
+	"name": "ADFKRC",
+	"location": "centralindia",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "c65337cc-6525-4b1b-8052-2ed397e03776",
+		"tenantId": "69dbd58d-2f94-41f7-9da0-e2ef15f3c8a2"
+	}
+}
